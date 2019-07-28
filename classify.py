@@ -144,7 +144,7 @@ print("LOSS:{}, ACCURACY: {}".format(predict[0],predict[1]));
 Program Summary:
 1. Open images of positive/negative images
 2. Resize image to 50x50 and convert to numpy array
-3. Construct CNN Model: Image -> (Conv -> Pool) x 4 -> Dense -> softmax === OUT
+3. Construct CNN Model: Image -> (Conv -> Pool) x 3 -> Dense -> softmax === OUT
 4. Compile, Train, Test Model
 5. Output relevant metrics
 """
